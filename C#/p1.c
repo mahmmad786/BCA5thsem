@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         int marks = 75;
-        // Branching
+        
         if (marks >= 60)
             Console.WriteLine("Result: First Class");
         else
@@ -20,11 +20,9 @@ class Program
             default:
                 Console.WriteLine("Invalid"); break;
         }
-        // For Loop
         Console.Write("For Loop: ");
         for (int i = 1; i <= 5; i++)
             Console.Write(i + " ");
-        // While Loop
         Console.Write("\nWhile Loop (Even): ");
         int w = 2;
         while (w <= 6)
@@ -32,7 +30,6 @@ class Program
             Console.Write(w + " ");
             w += 2;
         }
-        // Foreach Loop
         Console.Write("\nForeach Array: ");
         int[] arr = { 10, 20, 30 };
         foreach (int val in arr)
